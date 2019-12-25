@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainWindow" prefHeight="596.0" prefWidth="707.0" style="-fx-background-color: #1F4670;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DashBoardFormController">
+   <children>
+      <ImageView fx:id="imgCustomer" fitHeight="97.0" fitWidth="101.0" layoutX="182.0" layoutY="433.0" onMouseClicked="#navigate" onMouseEntered="#playEnterAction" onMouseExited="#playExitAction" onMouseMoved="#imgCustomer_OnMouseMoved" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/dashB_customer.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblCustomer" layoutX="194.0" layoutY="535.0" prefHeight="61.0" prefWidth="109.0" textAlignment="CENTER" textFill="#acdaee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgItem" fitHeight="86.0" fitWidth="117.0" layoutX="26.0" layoutY="437.0" onMouseClicked="#navigate" onMouseEntered="#playEnterAction" onMouseExited="#playExitAction" onMouseMoved="#imgItem_OnMouseMoved" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/dashB_item.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblItem" layoutX="27.0" layoutY="533.0" prefHeight="61.0" prefWidth="109.0" textAlignment="CENTER" textFill="#acdaee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgPlaceOrder" fitHeight="86.0" fitWidth="97.0" layoutX="340.0" layoutY="435.0" onMouseClicked="#navigate" onMouseEntered="#playEnterAction" onMouseExited="#playExitAction" onMouseMoved="#imgPlaceOrder_OnMouseMoved" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/dashB_po2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblPlaceOrder" layoutX="346.0" layoutY="531.0" prefHeight="61.0" prefWidth="109.0" textAlignment="CENTER" textFill="#acdaee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgSearchOrder" fitHeight="86.0" fitWidth="86.0" layoutX="499.0" layoutY="436.0" onMouseClicked="#navigate" onMouseEntered="#playEnterAction" onMouseExited="#playExitAction" onMouseMoved="#imgSearchOrder_OnMouseMoved" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/dashB_search.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblSearchOrder" layoutX="502.0" layoutY="526.0" prefHeight="61.0" prefWidth="109.0" textAlignment="CENTER" textFill="#acdaee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="485.0" fitWidth="707.0" layoutX="-1.0" layoutY="-1.0" opacity="0.84" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/6.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="315.0" layoutY="5.0" prefHeight="78.0" prefWidth="375.0" text="ABC Super Market" textFill="#1f4670">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgExit" fitHeight="61.0" fitWidth="61.0" layoutX="618.0" layoutY="445.0" onMouseClicked="#navigate" onMouseEntered="#playEnterAction" onMouseExited="#playExitAction" onMouseMoved="#imgExit_OnMouseMoved" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/940980-64.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblExit" layoutX="606.0" layoutY="516.0" prefHeight="61.0" prefWidth="97.0" textAlignment="CENTER" textFill="#acdaee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
