@@ -1,6 +1,6 @@
 
 ##POS System 
-#####[MIT LICENSE](LICENSE)
+[MIT LICENSE](LICENSE)
 
 
 This is a simple Point of Sales system based on JavaFX and Java.This is good for beginners to the JavaFX.
